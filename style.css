@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+  }
+
+.center {
+    text-align: center;
+    font-size: 35px;
+    /* font-weight: 100px; */
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: sans-serif;
+}
+
+.p-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-d, .btn-p {
+    background-color: rgb(255, 195, 55);
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 32px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.btn-d:hover, .btn-p:hover {
+    opacity: 1;
+}
+
+#img {
+    background-image: url("img1.jpg");
+    padding: 6%;
+    color: aliceblue;
+    text-decoration: solid;
+}
+
+#w-img {
+    background-image: url("img4.jpg");
+    padding: 6%;
+    color: aliceblue;
+    text-decoration: solid;
+}
+
+.contact {
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+    line-height:32px;
+}
+
+.yt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.yt-sub-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.to-top {
+    background: rgb(226, 190, 105);
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#2e2d2d;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .3s;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+
+  #cnt{
+      background-color: rgb(73, 70, 70);
+      color: whitesmoke;
+  }
